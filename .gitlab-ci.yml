@@ -11,4 +11,4 @@ test-job:
 deploy-job:
   stage: deploy
   script:
-    - echo "Deploying application..."
+    - echo "Deploying application..." 
