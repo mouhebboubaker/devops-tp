@@ -17,7 +17,7 @@ jobs:
       - name: Install Dependencies
         run: pip install -r hello-devops/requirements.txt
       - name: Run Tests
-      - run: python -m pytest hello-devops/
+        run: python -m pytest hello-devops/
   notify:
     needs: [test]
     runs-on: ubuntu-latest
